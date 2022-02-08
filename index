@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projet Bootstrap" />
+    <title>La Pomme Verte</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="row bg-green d-flex align-items-center">
+        <div class="col-6">
+          <div class="row d-flex align-items-center">
+            <img id="logo-pomme" src="image/pomme2.png" alt="icone de pomme verte" width="512px" height="512px"/>
+            <a href="#logo-pomme" id="logo-text"><p>La Pomme Verte</p></a>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row d-flex justify-content-end mr-5 mt-3 mb-3">
+            <p class="white mr-4">BESOIN D'AIDE ?</p>
+            <a href="#contact" class="yellow lien mr-4"><p>Nous contacter</p></a>
+            <a href="#" class="yellow lien"><p>09 01 02 03 04</p></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <hr class="sep">
+    <main id="wrapper">
+      <div id="intro" class="row d-flex justify-content-center">
+        <div class="row d-flex align-items-center">
+          <h1 class="mb-0 yellow bg-green pt-1 pb-2 pl-3 pr-3 rounded dancing">Fournisseur de pomme verte et de produits à base de pomme</h1>
+        </div>
+        <div class="row d-flex justify-content-around pb-4">
+          <div class="col-4 text-center bg-yellow-fade rounded m-2 p-2">
+            <h2 class="green mt-5">La Pomme Verte, qu'est ce que c'est ?</h2>
+            <p class="dosis mt-5 pl-5 pr-5">La Pomme Verte c'est des produits 100% bio issus de nos vergers et récolter à la main avec amour.</p>
+            <p class="dosis mt-5 pl-5 pr-5">Nos pommes sont transformées pour en préserver toutes leurs saveurs et leurs vertus nutritionnelles.</p>
+            <p class="dosis mt-5 pl-5 pr-5">Compote de pomme, pomme chips, beignet de pomme, pomme traditionnelle,
+              nous offrons un large choix à base de pomme tout cela pour votre plaisir.</p>
+          </div>
+          <div class ="col-4 text-center bg-yellow-fade rounded m-2 p-2">
+            <h2 class="green mt-5">Quel sont les bienfaits des pommes ?</h2>
+            <ul id="liste-bienfaits">
+              <li>Riche en pectine</li>
+              <li>Source de vitamine C</li>
+              <li>Stimule le système immunitaire</li>
+              <li>Réduit le risque de maladies cardiovasculaires</li>
+              <li>Combat le mauvais cholestérol</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="sep">
+      <div class="row">
+        <div class="info-col d-flex justify-content-center col-2 pt-5">
+          <h2 class="yellow">Nos Produits</h2>
+        </div>
+        <div class="col-10" id="list-produit">
+          <div class="row">
+            <div class="col-4 img-box">
+              <img class="rounded" src="image/test.jpg" alt="" height="200px" width="200px" />
+              <p class="descrip-produit rounded">Pomme</p>
+            </div>
+            <div class="col-4 img-box">
+              <img class="rounded" src="image/test.jpg" alt="" height="200px" width="200px" />
+              <p class="descrip-produit rounded">Compote</p>
+            </div>
+            <div class="col-4 img-box">
+              <img class="rounded" src="image/test.jpg" alt="" height="200px" width="200px" />
+              <p class="descrip-produit rounded">Jus de pomme</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4 img-box">
+              <img class="rounded" src="image/test.jpg" height="200px" width="200px" />
+              <p class="descrip-produit rounded">Pomme chips</p>
+            </div>
+            <div class="col-4 img-box">
+              <img class="rounded" src="image/test.jpg" height="200px" width="200px" />
+              <p class="descrip-produit rounded">Cookies à la pomme</p>
+            </div>
+            <div class="col-4 img-box">
+              <img class="rounded" src="image/test.jpg" height="200px" width="200px" />
+              <p class="descrip-produit rounded">Confiture de pomme</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="sep">
+      <div class="row">
+        <div class="col-10" id="histoire">
+          <div class="bg-yellow-fade rounded p-5 mr-5 ml-5">
+            <h3 class="green pl-2">Toute une histoire de pomme</h3>
+            <p class="dosis mt-5 pl-2 pr-2">Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus mandaverat fidis.
+              quo conperto Montius tunc quaestor acer quidem sed ad lenitatem propensior,
+              consulens in commune advocatos palatinarum primos scholarum adlocutus.</p>
+            <p class="dosis mt-5 pl-2 pr-2">Iamque lituis cladium concrepantibus internarum non celate ut antea turbidum saeviebat
+              ingenium a veri consideratione detortum et nullo inpositorum vel conpositorum fidem sollemniter inquirente
+              nec discernente a societate noxiorum insontes velut exturbatum e iudiciis fas omne discessit,
+              et causarum legitima silente defensione carnifex rapinarum sequester et obductio capitum et
+              bonorum ubique multatio versabatur per orientales provincias, quas recensere puto nunc oportunum
+              absque Mesopotamia digesta</p>
+            <p class="dosis mt-5 pl-2 pr-2">Post emensos insuperabilis expeditionis eventus languentibus partium animis,
+              quas periculorum varietas fregerat et laborum, nondum tubarum cessante clangore vel milite locato
+              per stationes hibernas</p>
+          </div>
+        </div>
+        <div class="info-col d-flex justify-content-center col-2 pt-5">
+          <h2 class="yellow">Notre Histoire</h2>
+        </div>
+      </div>
+      <hr class="sep">
+      <div class="row">
+        <div class="info-col d-flex justify-content-center col-2 pt-5">
+          <h2 id="contact" class="yellow">Contact</h2>
+        </div>
+        <div class="col-10" id="list-contact">
+          <div class="row d-flex">
+            <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+              <a class="green lien bg-yellow-fade p-2 mb-3 rounded" href="#">09 01 02 03 04</a>
+              <a class="green lien bg-yellow-fade p-2 rounded" href="mailto:contact@pommeverte.fr">contact@pommeverte.fr</a>
+            </div>
+            <div clas="col-6">
+              <iframe id="map" class="rounded" src="https://www.google.com/maps/embed?pb=!4v1640619040739!6m8!1m7!1sJ9pBNWeL5zy7dGOk29dpjw!2m2!1d46.71868444048946!2d0.5245250333426333!3f15.198790587267352!4f-10.416665056592578!5f1.1924812503605782"
+              width="500px" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <hr class="sep">
+    <footer>
+      <div class="row bg-green pt-2 pb-2">
+        <div class="col-6 d-flex justify-content-center white">
+          <div>Icônes conçues par <a href="https://www.freepik.com" title="Freepik" class ="yellow lien">Freepik</a>
+            from <a href="https://www.flaticon.com/fr/" title="Flaticon" class="yellow lien">www.flaticon.com</a></div>
+        </div>
+        <div class="col-6">
+          <div class="row d-flex justify-content-center white">
+            <p class="mr-3">Pomme Verte 2021</p>
+            <p class="mr-3">Créé par Benjamin Verhaeghe</p>
+            <a href="https://bencreaweb.fr/" class="yellow lien">bencreaweb.fr</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
