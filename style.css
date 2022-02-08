@@ -1,0 +1,199 @@
+/* ===== FONTS ===== */
+@font-face {
+    font-family: 'DancingScriptRegular';
+    src: url('fonts/DancingScriptRegular.eot');
+    src: url('fonts/DancingScriptRegular.eot') format('embedded-opentype'),
+         url('fonts/DancingScriptRegular.woff2') format('woff2'),
+         url('fonts/DancingScriptRegular.woff') format('woff'),
+         url('fonts/DancingScriptRegular.ttf') format('truetype'),
+         url('fonts/DancingScriptRegular.svg#DancingScriptRegular') format('svg');
+}
+@font-face {
+    font-family: 'IndieFlowerRegular';
+    src: url('fonts/IndieFlowerRegular.eot');
+    src: url('fonts/IndieFlowerRegular.eot') format('embedded-opentype'),
+         url('fonts/IndieFlowerRegular.woff2') format('woff2'),
+         url('fonts/IndieFlowerRegular.woff') format('woff'),
+         url('fonts/IndieFlowerRegular.ttf') format('truetype'),
+         url('fonts/IndieFlowerRegular.svg#IndieFlowerRegular') format('svg');
+}
+@font-face {
+    font-family: 'DosisMedium';
+    src: url('fonts/DosisMedium.eot');
+    src: url('fonts/DosisMedium.eot') format('embedded-opentype'),
+         url('fonts/DosisMedium.woff2') format('woff2'),
+         url('fonts/DosisMedium.woff') format('woff'),
+         url('fonts/DosisMedium.ttf') format('truetype'),
+         url('fonts/DosisMedium.svg#DosisMedium') format('svg');
+}
+@font-face {
+    font-family: 'ExoSemiBold';
+    src: url('fonts/ExoSemiBold.eot');
+    src: url('fonts/ExoSemiBold.eot') format('embedded-opentype'),
+         url('fonts/ExoSemiBold.woff2') format('woff2'),
+         url('fonts/ExoSemiBold.woff') format('woff'),
+         url('fonts/ExoSemiBold.ttf') format('truetype'),
+         url('fonts/ExoSemiBold.svg#ExoSemiBold') format('svg');
+}
+
+/* ===== RESET CUSTOM =====*/
+
+ul {
+  list-style: none;
+}
+
+/* ===== COULEURS ===== */
+
+.white {
+  color: #fff;
+}
+.green {
+  color: #287265;
+}
+.bg-green {
+  background-color: #287265;
+}
+.yellow {
+  color: #F0C72C;
+}
+.bg-yellow {
+  background-color: #F0C72C;
+}
+.bg-yellow-fade {
+  background-color: rgba(240,199,44,0.8);
+}
+
+/* ===== FONT =====*/
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-family: 'ExoSemiBold';
+  font-size: 1.5rem;
+}
+h3 {
+  font-family: 'ExoSemiBold';
+  font-size: 1.2rem;
+}
+.dancing {
+  font-family: 'DancingScriptRegular';
+}
+.indie {
+  font-family: 'IndieFlowerRegular';
+}
+.dosis {
+  font-family: 'DosisMedium';
+  font-size: 1.1rem;
+}
+.exo {
+  font-family: 'ExoSemiBold';
+}
+
+/* ===== CUSTOM =====*/
+
+#wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.sep {
+  height: 1rem;
+  width: 100%;
+  border: none;
+}
+.lien {
+  text-decoration: none;
+}
+.lien:hover {
+  text-decoration: none;
+  color: #fff;
+}
+#intro {
+  background-image: url(../image/apple1.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 600px;
+  width: auto;
+  margin: 0;
+}
+#logo-pomme {
+  width: 52px;
+  height: 52px;
+  margin: 1rem 1rem 1rem 2rem;
+}
+#logo-text {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: 'IndieFlowerRegular';
+  color: #F0C72C;
+  margin-bottom: -10px;
+}
+#logo-text:hover {
+  text-decoration: none;
+}
+#liste-bienfaits li {
+  margin-bottom: 1rem;
+  font-family: 'DosisMedium';
+  font-size: 1.1rem;
+}
+#liste-bienfaits {
+  margin-top: 3rem;
+}
+.info-col {
+  background-color: #287265;
+}
+.img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descrip-produit {
+  background-color: #287265;
+  color: #fff;
+  margin-top: 0.3rem;
+  padding: 0.1rem 0.5rem 0.2rem 0.5rem;
+  font-family: 'DosisMedium';
+  font-size: 1.2rem;
+}
+#list-produit {
+  background-image: url(../image/apple5.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 600px;
+  width: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#histoire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../image/apple7.jpg);
+  background-repeat: no-repeat;
+  background-position: cneter;
+  background-size: cover;
+  min-height: 600px;
+  width: auto;
+  margin: 0;
+}
+
+#list-contact {
+  background-image: url(../image/apple4.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 600px;
+  width: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#map {
+  border: 1rem solid rgba(240,199,44,0.8)!important;
+}
