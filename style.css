@@ -169,6 +169,11 @@ h3 {
   flex-direction: column;
   justify-content: center;
 }
+.diapo-size {
+  max-height: 700px;
+  height: 100%;
+  width: 100%;
+}
 #histoire {
   display: flex;
   flex-direction: column;
@@ -196,4 +201,28 @@ h3 {
 }
 #map {
   border: 1rem solid rgba(240,199,44,0.8)!important;
+}
+#info-footer {
+  background-color: #f6f5f4;
+}
+#info-footer h4 {
+  display: inline;
+  padding: 0.2rem 0.5rem;
+  background-color: #F0C72C;
+  border-radius: 0.25rem;
+}
+#info-footer ul {
+  padding: 0;
+}
+#info-footer li a{
+  color: #287265;
+}
+#sociaux {
+  display: block;
+  margin-top: 2rem;
+}
+#sociaux img{
+  max-height: 50px;
+  max-width: 50px;
+  padding: 0.5rem;
 }
