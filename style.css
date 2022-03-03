@@ -230,7 +230,7 @@ h3 {
 
 /* ===== MEDIA QUERIES =====*/
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
 
   .sep {
     height: 0;
@@ -273,5 +273,18 @@ h3 {
   }
   #histoire div p {
     margin-top: 1rem!important;
+  }
+  #list-contact {
+    margin: 0;
+    padding: 0;
+  }
+  #list-contact div {
+    padding-top: 1rem;
+  }
+  #list-contact iframe {
+    max-width: 500px;
+    width: 100vw;
+    max-height: 500px;
+    height: 100vh;
   }
 }
