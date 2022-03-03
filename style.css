@@ -205,7 +205,7 @@ h3 {
 #info-footer {
   background-color: #f6f5f4;
 }
-#info-footer h4 {
+#info-footer h5 {
   display: inline;
   padding: 0.2rem 0.5rem;
   background-color: #F0C72C;
@@ -216,6 +216,7 @@ h3 {
 }
 #info-footer li a{
   color: #287265;
+  font-size: 0.7rem;
 }
 #sociaux {
   display: block;
@@ -225,4 +226,52 @@ h3 {
   max-height: 50px;
   max-width: 50px;
   padding: 0.5rem;
+}
+
+/* ===== MEDIA QUERIES =====*/
+
+@media (max-width: 576px) {
+
+  .sep {
+    height: 0;
+  }
+  #logo-pomme {
+    display: none;
+  }
+  #logo-text {
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 2rem;
+  }
+  #phone-number {
+    display: none;
+  }
+  #intro h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .img-box {
+    margin-top: 1rem;
+  }
+  #list-produit {
+    padding-bottom: 1rem;
+  }
+  #histoire-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #histoire {
+    padding: 1rem;
+  }
+  #histoire div {
+    margin: 0!important;
+    padding: 1rem!important;
+  }
+  #histoire h3 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  #histoire div p {
+    margin-top: 1rem!important;
+  }
 }
